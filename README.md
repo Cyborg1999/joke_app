@@ -5,4 +5,4 @@ The application will be used to learn API interactions between application and t
 ## Author
 
 For more information please check my github :<br>
-[[Andrew Kipkoech](https://github.com/Cyborg1999)]
+[Andrew Kipkoech](https://github.com/Cyborg1999)
