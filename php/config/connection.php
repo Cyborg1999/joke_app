@@ -1,27 +1,28 @@
-?<?php
-class DbConnection {
+<?php
     /**
      * DbConnection Class Doc comments
      * PHP version: *^8
      * 
      * @category Class
      *  
-     * @package DbConnection
+     * @package Null
      * 
      * @author " Display Name <Cyborg1999.github.com>"
      *  
      * @license * Null
      *   
-     * @link localhost
+     * @link * Null
      */
+class DbConnection
+{
 
     /**
      * DbConnection Class file in the project
-     * PHP version: *^7
+     * PHP version: *^8
      * 
      * @category Class
      *  
-     * @package MyPackage
+     * @package Null
      * 
      * @author " Display Name <Cyborg1999.github.com>"
      *  
