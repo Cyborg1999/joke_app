@@ -1,18 +1,19 @@
 <?php
-    /**
-     * DbConnection Class Doc comments
-     * PHP version: *^8
-     * 
-     * @category Class
-     *  
-     * @package Null
-     * 
-     * @author " Display Name <Cyborg1999.github.com>"
-     *  
-     * @license * Null
-     *   
-     * @link * Null
-     */
+/**
+ * DbConnection Class Doc comments
+ * PHP version: *^8
+ * 
+ * @category Class
+ *  
+ * @package Null
+ * 
+ * @author "Andrew Tonui <Cyborg1999.github.com>"
+ *  
+ * @license * Null
+ *   
+ * @link * Null
+ */
+
 class DbConnection
 {
 
@@ -24,7 +25,7 @@ class DbConnection
      *  
      * @package Null
      * 
-     * @author " Display Name <Cyborg1999.github.com>"
+     * @author "Andrew Tonui <Cyborg1999.github.com>"
      *  
      * @license * Null
      *   

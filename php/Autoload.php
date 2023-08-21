@@ -5,9 +5,9 @@
  * 
  * @category Autoload
  *  
- * @package MyPackage<
+ * @package MyPackage
  * 
- * @author " Display Name <Cyborg1999.github.com>"
+ * @author "Andrew Tonui <Cyborg1999.github.com>"
  *  
  * @license * Null
  *   

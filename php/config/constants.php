@@ -7,7 +7,7 @@
  *  
  * @package Null
  * 
- * @author " Display Name <Cyborg1999.github.com>"
+ * @author "Andrew Tonui <Cyborg1999.github.com>"
  *  
  * @license * Null
  *   
