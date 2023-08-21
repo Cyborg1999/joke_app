@@ -14,4 +14,5 @@
  * @link * Null
  */
 // Redirect to the latest API version
-header('Location: api/v1/');
+header('Location: api/v1/random_joke.php');
+
