@@ -1,3 +1,5 @@
+#!/usr/bin/env php 8
+
 <?php
 /**
  * Autoload file will contain the directories to all the file in the project
@@ -20,7 +22,7 @@ require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . "config/constants.php";
 require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . "config/connection.php";
 
 
-$MSQL = new Dbconnection(DBTYPE, DBHOST, DBNAME, DBUSER, DBPASS, DBPORT);
+//$MSQL = new Dbconnection(DBTYPE, DBHOST, DBNAME, DBUSER, DBPASS, DBPORT);
 
 print "<PRE>";
 print_r($MSQL);

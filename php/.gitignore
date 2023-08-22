@@ -1,3 +1,4 @@
 vendor/
 composer.*
 db.sql
+node_modules/

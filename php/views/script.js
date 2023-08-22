@@ -1,11 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const jokeContent = document.getElementById('joke-content');
     const getJokeButton = document.getElementById('get-joke');
-
-    getJokeButton.addEventListener('click', async () => {
-        const response = await fetch('http://localhost/joke_app/php/api/v1/random_joke.php');
-        const data = await response.json();
-
-        jokeContent.textContent = data.content;
+    const jokeContent = document.getElementById('joke-content');
+    
+    getJokeButton.addEventListener('click', () => {
+        fetch('../api/v1/random_joke.php')
+            .then(response => response.json())
+            .then(data => {
+                jokeContent.textContent = data.content;
+            })
+            .catch(error => {
+                console.error('Error fetching joke:', error);
+                jokeContent.textContent = 'An error occurred while fetching the joke.';
+            });
     });
 });

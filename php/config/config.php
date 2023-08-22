@@ -1,3 +1,4 @@
+#!/usr/bin/env php 8 
 <?php 
 /**
  * Config file
