@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const jokeContent = document.getElementById('joke-content');
     
     getJokeButton.addEventListener('click', () => {
-        fetch('../api/v1/random_joke.php')
+        fetch('../index.php')
             .then(response => response.json())
             .then(data => {
                 jokeContent.textContent = data.content;
@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(error => {
                 console.error('Error fetching joke:', error);
                 jokeContent.textContent = 'An error occurred while fetching the joke.';
+                console.log(error)
             });
     });
 });
